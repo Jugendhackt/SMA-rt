@@ -1,0 +1,935 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.55.7 8b86ff77",
+    "osm3s": {
+        "timestamp_osm_base": "2019-11-02T18:45:02Z",
+        "timestamp_areas_base": "2019-11-02T18:17:02Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 287850945,
+            "lat": 48.4333502,
+            "lon": 9.9684180,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "16",
+                "addr:postcode": "89081",
+                "addr:street": "Loherstraße",
+                "name": "Bäckerei Staib",
+                "shop": "bakery",
+                "website": "http://www.baeckerei-staib.de/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 289885460,
+            "lat": 48.3345311,
+            "lon": 9.9373714,
+            "tags": {
+                "name": "Steck",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 307641649,
+            "lat": 48.4140407,
+            "lon": 9.9453148,
+            "tags": {
+                "name": "Staib",
+                "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-11:00; Su 07:30-12:30",
+                "phone": "+49 731 552775",
+                "shop": "bakery",
+                "website": "http://www.baeckerei-staib.de/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 369781517,
+            "lat": 48.4017504,
+            "lon": 9.9872892,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "89073",
+                "addr:street": "Neutorstraße",
+                "name": "Hamma",
+                "opening_hours": "Mo-Fr 6:30-19:00; Sa 7:00-18:00; Su 8:00-11:00",
+                "phone": "+49 731 37860280",
+                "shop": "bakery",
+                "website": "http://www.hamma.de/index.php?id=88",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 391785899,
+            "lat": 48.4029145,
+            "lon": 10.0011376,
+            "tags": {
+                "name": "Kirsamer",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 669994144,
+            "lat": 48.3982354,
+            "lon": 9.9892996,
+            "tags": {
+                "name": "Staib",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 670077901,
+            "lat": 48.4066114,
+            "lon": 9.9845640,
+            "tags": {
+                "name": "Bäckerei Kunath",
+                "shop": "bakery",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 681607667,
+            "lat": 48.3531626,
+            "lon": 9.9114690,
+            "tags": {
+                "contact:phone": "+49 7305 956994",
+                "name": "Kirsamers Backstube",
+                "opening_hours": "Mo-Sa 07:00 - 20:00 ; Su 08:00 - 11:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 681619538,
+            "lat": 48.3526207,
+            "lon": 9.9059249,
+            "tags": {
+                "name": "Bäckerei Betz",
+                "shop": "bakery",
+                "website": "http://baeckerei-betz.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 702270749,
+            "lat": 48.3973942,
+            "lon": 9.9924723,
+            "tags": {
+                "name": "Staib",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 785862978,
+            "lat": 48.4011241,
+            "lon": 9.9964925,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "51",
+                "addr:postcode": "89073",
+                "addr:street": "Frauenstraße",
+                "drink:coffee": "yes",
+                "name": "Emil Reimann",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 785935043,
+            "lat": 48.3945907,
+            "lon": 9.9805689,
+            "tags": {
+                "addr:postcode": "89077",
+                "addr:street": "Ehinger Straße",
+                "check_date": "2017-10-02",
+                "last_check": "2017-10-02",
+                "last_checked": "2017-10-02",
+                "name": "betz",
+                "opening_hours": "Mo-Fr 05:45-18:30; Sa 06:30-13:00",
+                "operator": "Betz GmbH Bäckerei",
+                "phone": "+49 731 65683",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 801035006,
+            "lat": 48.3994260,
+            "lon": 9.9834553,
+            "tags": {
+                "name": "Hamma",
+                "opening_hours": "05:00-22:00",
+                "operator": "Hamma GmbH & Co. KG",
+                "phone": "+49 731 66334",
+                "shop": "bakery",
+                "website": "http://www.hamma.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 801125047,
+            "lat": 48.4002962,
+            "lon": 9.9908717,
+            "tags": {
+                "name": "Stimpfle",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 915509035,
+            "lat": 48.3945744,
+            "lon": 9.9722667,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "62",
+                "addr:postcode": "89077",
+                "addr:street": "Gneisenaustraße",
+                "email": "adelbert.guter@web.de",
+                "fax": "+49 731 / 32385",
+                "name": "Café Adelbert",
+                "opening_hours": "Mo-Fr 05:00-18:00; Sa 05:00-13:00; Su 07:00-10:00",
+                "operator": "Café Adelbert",
+                "phone": "+49 731 / 31493",
+                "shop": "bakery",
+                "smoking": "no",
+                "website": "https://www.cafe-adelbert.de/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 915509045,
+            "lat": 48.3949316,
+            "lon": 9.9683206,
+            "tags": {
+                "name": "Betz GmbH Bäckerei",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1035946229,
+            "lat": 48.4012037,
+            "lon": 9.9739985,
+            "tags": {
+                "name": "Staib",
+                "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-11:00",
+                "operator": "Bäckerei & Konditorei Staib GmbH & Co. KG",
+                "phone": "+49 731 3980654",
+                "shop": "bakery",
+                "website": "http://www.baeckerei-staib.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1222263283,
+            "lat": 48.4000166,
+            "lon": 9.9908556,
+            "tags": {
+                "name": "Bayer",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1262147475,
+            "lat": 48.4093192,
+            "lon": 9.9599503,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "10",
+                "addr:postcode": "89075",
+                "addr:street": "Trollingerweg",
+                "contact:phone": "+49 731 5504082",
+                "contact:website": "http://www.delizie-italiane.com",
+                "name": "Delizie Italiane Raino",
+                "opening_hours": "Tu - Su 8:30 - 19:00",
+                "shop": "bakery",
+                "source": "local_knowledge",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1285180619,
+            "lat": 48.3988183,
+            "lon": 9.9845711,
+            "tags": {
+                "name": "Betz",
+                "opening_hours": "Mo-Fr 06:00-19:00, Sa 06:30-19:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1380317400,
+            "lat": 48.3572611,
+            "lon": 9.9863825,
+            "tags": {
+                "name": "Geiselmann",
+                "opening_hours": "Tu-Fr 06:00-18:00; Sa 06:00-12:00",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1380317433,
+            "lat": 48.3597013,
+            "lon": 9.9894098,
+            "tags": {
+                "name": "Bäckerei Bayer",
+                "old_name": "Bäckerei Wegerer",
+                "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-13:00",
+                "shop": "bakery",
+                "website": "https://www.bayers.de/de/bayer-baeckerei-filialen/wiblingen-schlossstrasse.html",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1380317496,
+            "lat": 48.3603559,
+            "lon": 9.9854784,
+            "tags": {
+                "name": "Staib",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1431776615,
+            "lat": 48.3976574,
+            "lon": 9.9932045,
+            "tags": {
+                "level": "0",
+                "name": "Back Factory",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1433495888,
+            "lat": 48.3997850,
+            "lon": 9.9909173,
+            "tags": {
+                "brand": "Hofpfisterei",
+                "brand:wikidata": "Q1623217",
+                "brand:wikipedia": "en:Hofpfisterei",
+                "name": "Hofpfisterei",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1437422156,
+            "lat": 48.3993425,
+            "lon": 9.9911963,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "4",
+                "addr:postcode": "89073",
+                "addr:street": "Platzgasse",
+                "name": "Staib",
+                "opening_hours": "Mo-Sa 06:30-19:00",
+                "phone": "+49 731 8800911",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1439249994,
+            "lat": 48.3994413,
+            "lon": 9.9888339,
+            "tags": {
+                "name": "Staib",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1448734432,
+            "lat": 48.3977438,
+            "lon": 9.9949404,
+            "tags": {
+                "name": "Alnatura Bäckerei",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1449472179,
+            "lat": 48.3994973,
+            "lon": 9.9834472,
+            "tags": {
+                "email": "info@backfactory.de",
+                "name": "Back-Factory",
+                "opening_hours": "Mo-Fr 04:00-19:30; Sa 05:30-19:00; Su 06:00-19:00",
+                "operator": "BACKFACTORY GmbH",
+                "phone": "+49 731 / 1416734",
+                "shop": "bakery",
+                "website": "http://www.backfactory.de/",
+                "wheelchair": "yes",
+                "wikidata": "Q1586343",
+                "wikipedia": "de:Harry-Brot"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1454673284,
+            "lat": 48.3987859,
+            "lon": 9.9961306,
+            "tags": {
+                "name": "Betz",
+                "operator": "Bäckereibetriebe Betz GmbH",
+                "phone": "+49 731 6020070",
+                "shop": "bakery",
+                "website": "http://baeckerei-betz.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1477222179,
+            "lat": 48.3514914,
+            "lon": 9.9740814,
+            "tags": {
+                "name": "Hamma",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1500611933,
+            "lat": 48.3512502,
+            "lon": 9.9738913,
+            "tags": {
+                "level": "0",
+                "name": "K&U",
+                "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-11:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1500643203,
+            "lat": 48.4016539,
+            "lon": 9.9704827,
+            "tags": {
+                "name": "Staib",
+                "opening_hours": "Mo-Sa 07:00-20:00",
+                "operator": "Bäckerei & Konditorei Staib GmbH & Co. KG",
+                "phone": "+49 731 3600393",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1500645223,
+            "lat": 48.3998435,
+            "lon": 9.9692541,
+            "tags": {
+                "name": "Schwarz",
+                "opening_hours": "Mo-Sa 06:30-20:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1509280966,
+            "lat": 48.3877951,
+            "lon": 9.9698267,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "92",
+                "addr:postcode": "89077",
+                "addr:street": "Römerstraße",
+                "contact:facebook": "https://facebook.com/Baeckerei.Hamma",
+                "contact:phone": "+49 731 36734",
+                "contact:website": "http://hamma.de",
+                "name": "Hamma",
+                "opening_hours": "Mo-Fr 06:30-18:00; Sa 06:30-12:00; Su,PH 08:00-11:00",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1523648315,
+            "lat": 48.3880797,
+            "lon": 9.9712446,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "49",
+                "addr:postcode": "89077",
+                "addr:street": "Westerlinger Straße",
+                "name": "Betz",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1557641829,
+            "lat": 48.4306082,
+            "lon": 10.0187282,
+            "tags": {
+                "name": "Betz",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1561701741,
+            "lat": 48.4433178,
+            "lon": 9.9870601,
+            "tags": {
+                "name": "Stimpfle",
+                "shop": "bakery",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1703078336,
+            "lat": 48.3862259,
+            "lon": 9.9658419,
+            "tags": {
+                "name": "Bayer",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1744708310,
+            "lat": 48.4142929,
+            "lon": 9.9457460,
+            "tags": {
+                "name": "Kirsamer",
+                "opening_hours": "Mo-Sa 05:30-22:00; Su 07:00-13:30",
+                "phone": "+49 731-9503224",
+                "shop": "bakery",
+                "website": "http://www.kirsamers-backstube.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1787684514,
+            "lat": 48.3294445,
+            "lon": 9.9387413,
+            "tags": {
+                "name": "KIrsamer",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1833624640,
+            "lat": 48.3576542,
+            "lon": 9.9747383,
+            "tags": {
+                "name": "Aschenbrenner",
+                "opening_hours": "Mo-Fr 07:00-12:30, 14:30-18:00; Sa 07:00-12:00",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1838211398,
+            "lat": 48.3959004,
+            "lon": 9.9548672,
+            "tags": {
+                "name": "Betz",
+                "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-13:00; Su 08:00-11:00",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1838211417,
+            "lat": 48.3955050,
+            "lon": 9.9544909,
+            "tags": {
+                "name": "Bayer",
+                "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-17:30; Su 07:00-17:30",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1838713621,
+            "lat": 48.3947811,
+            "lon": 9.9577573,
+            "tags": {
+                "name": "Betz",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1839122185,
+            "lat": 48.3948060,
+            "lon": 9.9583058,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "250",
+                "addr:postcode": "89077",
+                "addr:street": "Söflinger Straße",
+                "name": "Mäschle",
+                "shop": "bakery",
+                "website": "https://www.baeckerei-maeschle.de/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1849047734,
+            "lat": 48.3998611,
+            "lon": 9.9614166,
+            "tags": {
+                "name": "Brezelbäckerei Ditsch",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1879330878,
+            "lat": 48.3293126,
+            "lon": 9.9323868,
+            "tags": {
+                "addr:city": "Donaustetten",
+                "addr:housenumber": "6",
+                "addr:street": "Pfarrer-Höfflinger-Straße",
+                "name": "Bäckerei Rose",
+                "opening_hours": "Mo-Fr 06:30-12:30; Mo, We-Fr 14:30-18:00; Sa 06:30-12:00",
+                "shop": "bakery",
+                "website": "https://baeckerei-rose.de/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1933575786,
+            "lat": 48.4004050,
+            "lon": 9.9922020,
+            "tags": {
+                "name": "Ulmer Zuckerbäcker",
+                "shop": "bakery",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2164529608,
+            "lat": 48.4091176,
+            "lon": 9.9604389,
+            "tags": {
+                "addr:housenumber": "76",
+                "addr:street": "Stifterweg",
+                "name": "Bäckerei Betz",
+                "opening_hours": "Mo-Fr 07:00-12:30,14:00-18:00; Sa 07:00-12:30; Su,PH 08:00-11:00",
+                "shop": "bakery",
+                "website": "http://baeckerei-betz.com/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2188424023,
+            "lat": 48.3902473,
+            "lon": 9.9753657,
+            "tags": {
+                "name": "Dreikönigsbäckerei",
+                "shop": "bakery",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2375544809,
+            "lat": 48.4115690,
+            "lon": 9.9924730,
+            "tags": {
+                "name": "Staib",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2428071675,
+            "lat": 48.3898650,
+            "lon": 9.9793892,
+            "tags": {
+                "addr:housenumber": "25",
+                "addr:street": "Haßlerstraße",
+                "name": "Dreikönigsbäckerei",
+                "opening_hours": "Mo-Fr 6:30-18:00; Sa 6:30-12:00",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2442722992,
+            "lat": 48.3993661,
+            "lon": 9.9868367,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "89073",
+                "addr:street": "Wengengasse",
+                "name": "Kirsamer",
+                "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-14:00; Su 08:00-13:00",
+                "shop": "bakery",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2497137166,
+            "lat": 48.3937107,
+            "lon": 9.9731189,
+            "tags": {
+                "name": "Kirsamer",
+                "opening_hours": "Mo-Fr 07:00-18:15; Sa 07:00-13:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2550887183,
+            "lat": 48.4055719,
+            "lon": 9.9521474,
+            "tags": {
+                "name": "Bäckerei Stimpfle",
+                "opening_hours": "Mo-Fr 06:30-12:30,14:00-18:00; Sa 06:30-12:00",
+                "shop": "bakery",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2622222512,
+            "lat": 48.3995793,
+            "lon": 9.9934562,
+            "tags": {
+                "name": "Staib",
+                "old_name": "Juwelier Rothfuss (bis 2015)",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2717223856,
+            "lat": 48.3977777,
+            "lon": 9.9955788,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "89073",
+                "addr:street": "Frauenstraße",
+                "email": "info@kirsamerdiebackstube.de",
+                "fax": "+49 731 14395443",
+                "name": "Kirsamer",
+                "opening_hours": "Mo-Sa 07:00-18:30",
+                "operator": "Kirsamers-Backstube GmbH",
+                "phone": "+49 731 14395441",
+                "shop": "bakery",
+                "website": "http://www.kirsamers-backstube.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2980892535,
+            "lat": 48.3992324,
+            "lon": 9.9938400,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "89073",
+                "addr:street": "Hafengasse",
+                "email": "info@baeckerei-honold.de",
+                "fax": "+49 731/9709619",
+                "name": "Bäckerei Honold",
+                "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-14:00",
+                "operator": "Bäckerei Honold GmbH",
+                "phone": "+49 731/77620",
+                "shop": "bakery",
+                "website": "http://www.baeckerei-honold.de/",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3287231452,
+            "lat": 48.3989501,
+            "lon": 9.9933924,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "90",
+                "addr:postcode": "89073",
+                "addr:street": "Münsterplatz",
+                "contact:facebook": "https://facebook.com/Baeckerei.Hamma",
+                "contact:phone": "+49 731 40318221",
+                "contact:website": "http://hamma.de",
+                "name": "Hamma",
+                "opening_hours": "Mo-Sa 07:00-19:30; Su,PH 08:00-18:00",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3495192587,
+            "lat": 48.3994864,
+            "lon": 9.9611278,
+            "tags": {
+                "level": "0",
+                "name": "Bäckerei Staib",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4320162326,
+            "lat": 48.4010432,
+            "lon": 9.9953552,
+            "tags": {
+                "name": "Rosenbäckerei",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4396066460,
+            "lat": 48.3997164,
+            "lon": 9.9964360,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "89073",
+                "addr:street": "Frauenstraße",
+                "email": "info@bayers.de",
+                "internet_access": "wlan",
+                "internet_access:fee": "yes",
+                "name": "Bayer's Backspezialitäten",
+                "opening_hours": "Mo-Sa 06:00-18:00",
+                "operator": "Bäckerei Bayer KG",
+                "phone": "+49 731 65478",
+                "shop": "bakery",
+                "website": "https://www.bayers.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4396066463,
+            "lat": 48.4018559,
+            "lon": 9.9965077,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:country": "DE",
+                "addr:housenumber": "65",
+                "addr:postcode": "89073",
+                "addr:street": "Frauenstraße",
+                "email": "info@kirsamerdiebackstube.de",
+                "fax": "+49 731 38868354",
+                "name": "Kirsamer",
+                "opening_hours": "Mo-Fr 07:00-18:15; Sa 07:00-13:00",
+                "operator": "Kirsamers-Backstube GmbH",
+                "phone": "+49 731 14050977",
+                "shop": "bakery",
+                "website": "http://www.kirsamers-backstube.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4463037642,
+            "lat": 48.4125236,
+            "lon": 10.0018781,
+            "tags": {
+                "addr:city": "Ulm",
+                "addr:housenumber": "151",
+                "addr:postcode": "89075",
+                "addr:street": "Heidenheimer Straße",
+                "name": "Bäckerei Stimpfle",
+                "opening_hours": "Mo-Fr 06:00-18:00; Sa 6:00-12:30",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4475246554,
+            "lat": 48.4047462,
+            "lon": 9.9900314,
+            "tags": {
+                "name": "Oststadtbäckerei Kreibich",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6255263460,
+            "lat": 48.3511716,
+            "lon": 9.9736212,
+            "tags": {
+                "description": "Backwaren vom Vortag",
+                "name": "+24 Hamma",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6663312784,
+            "lat": 48.3945311,
+            "lon": 9.9814101,
+            "tags": {
+                "level": "0",
+                "name": "Bäckerei Betz",
+                "opening_hours": "Mo-Fr 05:30-18:30; Sa 06:30-13:00",
+                "shop": "bakery",
+                "wheelchair": "yes"
+            }
+        }
+    ]
+}
