@@ -1,27 +1,31 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import os
+from flask import Flask, request, render_template
+app = Flask(__name__)
 
-from flask import Flask, request
-app = Flask(__name__, static_url_path='/src/frontend')
-from src.attributes.weather import WeatherAttr
-
+from attributes.weather import WeatherAttr
 weatherAPI = WeatherAttr()
+
+import os
 
 @app.route('/', methods=['GET'])
 def index():
-    return ''
+    return render_template('index.html')
 
-@app.route('/weather', methods=['GET'])
+
+@app.route('/api/<key:int>', methods=['GET'])
 def get_weather_data():
-    return {
-        'data': weatherAPI.get_data(
-            request.args.get('lat', 0),
-            request.args.get('lng', 0),
-            request.args.get('distance', 40),
-            request.args.get('weather', 'sun'))
-        }
+    if key == 0:
+        return {
+            'data': weatherAPI.get_data(
+                request.args.get('lat', 0),
+                request.args.get('lng', 0),
+                request.args.get('distance', 40),
+                request.args.get('weather', 'sun'))
+            }
+    elif:
+        return {}
 
 
 if __name__ == '__main__':
