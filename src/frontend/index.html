@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <script src="assets/js/OpenLayers/OpenLayers.js"></script>
+
     <title>SMArt Search</title>
 </head>
 <body>
@@ -44,6 +46,13 @@
         </div>
     </main>
 </section>
+<section id="map">
+</section>
 <script src="assets/js/search.js"></script>
+<script>
+    map = new OpenLayers.Map("map");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();
+</script>
 </body>
 </html>

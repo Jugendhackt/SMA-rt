@@ -23,6 +23,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#search-wrapper div div{
+    float: left;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
 .btn{
     transition: 500ms;
     border: 1px solid black;
@@ -48,12 +53,16 @@ input{
     color: white;
 }
 #attributes{
-    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 19999;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 #attribute-wrapper{
+
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-around;
     max-width: 920px;
     margin: 0 auto;
@@ -61,6 +70,7 @@ input{
 }
 #attribute-wrapper.open{
     display: flex;
+    margin: 15px;
     height: 100%;
     animation: open 0.5s linear;
 }
@@ -94,10 +104,11 @@ input{
 .attr-box.clicked img{
     filter:invert();
 }
-#search-wrapper div div{
-    float: left;
-    font-size: 1.5em;
-    padding-right: 5px;
+#map{
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: block;
 }
 
 @keyframes open {
@@ -112,11 +123,9 @@ input{
 }
 @keyframes close {
     0%{
-        height: 100%;
         opacity: 1;
     }
     100% {
-        height: 0%;
         opacity: 0;
     }
 }
