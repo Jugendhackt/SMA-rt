@@ -1,14 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
+    //Toggle attribute buttons
     const attrBox = document.getElementsByClassName("attr-box");
     for (const attr of attrBox) {
         attr.addEventListener("click", e => {
             if (attr.classList.contains("clicked")) {
                 attr.classList.remove("clicked");
             }else{
-            attr.classList.add("clicked");
+                attr.classList.add("clicked");
             }
         });
     }
+    //Open/Close Attribute Menu
     const attrBtn = document.getElementById("attribut-btn");
     attrBtn.addEventListener("click", function (e) {
         const attrMenu = document.getElementById("attribute-wrapper");
@@ -24,3 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+class Search{
+    constructor(){
+        this.place = "";
+        this.attr = [];
+    }
+
+    getData(place) {
+
+    }
+
+}
