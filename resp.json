@@ -1,0 +1,464 @@
+{
+    "current": {
+        "id": 0,
+        "summary": "Mostly cloudy throughout the day.",
+        "lat": "48.3972358",
+        "lng": "9.993236",
+        "name": "Ulm",
+        "distance": 0,
+        "temperatureHigh": 61.439999999999998,
+        "temperatureLow": 45.649999999999999
+    },
+    "places": [
+        {
+            "id": "2820256",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.3984100000",
+            "lng": "9.9915500000",
+            "name": "Ulm",
+            "distance": 0.10000000000000001,
+            "temperatureHigh": 61.420000000000002,
+            "temperatureLow": 45.649999999999999
+        },
+        {
+            "id": "2847736",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.4914400000",
+            "lng": "9.2042700000",
+            "name": "Reutlingen",
+            "distance": 36.700000000000003,
+            "temperatureHigh": 62.340000000000003,
+            "temperatureLow": 50.689999999999998
+        },
+        {
+            "id": "2928751",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.7396100000",
+            "lng": "9.3047300000",
+            "name": "Esslingen",
+            "distance": 39.399999999999999,
+            "temperatureHigh": 64.409999999999997,
+            "temperatureLow": 52.399999999999999
+        },
+        {
+            "id": "2959927",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.8377700000",
+            "lng": "10.0933000000",
+            "name": "Aalen",
+            "distance": 30.800000000000001,
+            "temperatureHigh": 59.789999999999999,
+            "temperatureLow": 49.170000000000002
+        },
+        {
+            "id": "2835482",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.7994700000",
+            "lng": "9.7980900000",
+            "name": "Schw\u00e4bisch Gm\u00fcnd",
+            "distance": 29.199999999999999,
+            "temperatureHigh": 63.240000000000002,
+            "temperatureLow": 49.369999999999997
+        },
+        {
+            "id": "2919054",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.7035400000",
+            "lng": "9.6520900000",
+            "name": "G\u00f6ppingen",
+            "distance": 26.300000000000001,
+            "temperatureHigh": 65.579999999999998,
+            "temperatureLow": 51.710000000000001
+        },
+        {
+            "id": "2863941",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.3927900000",
+            "lng": "10.0111200000",
+            "name": "Neu-Ulm",
+            "distance": 0.90000000000000002,
+            "temperatureHigh": 61.469999999999999,
+            "temperatureLow": 45.670000000000002
+        },
+        {
+            "id": "2907851",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6779800000",
+            "lng": "10.1516200000",
+            "name": "Heidenheim an der Brenz",
+            "distance": 20.699999999999999,
+            "temperatureHigh": 59.18,
+            "temperatureLow": 48.060000000000002
+        },
+        {
+            "id": "3336891",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.6569800000",
+            "lng": "9.2204900000",
+            "name": "Filderstadt",
+            "distance": 39.600000000000001,
+            "temperatureHigh": 61.880000000000003,
+            "temperatureLow": 51.219999999999999
+        },
+        {
+            "id": "2871992",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "47.9837200000",
+            "lng": "10.1852700000",
+            "name": "Memmingen",
+            "distance": 29.899999999999999,
+            "temperatureHigh": 58,
+            "temperatureLow": 46.159999999999997
+        },
+        {
+            "id": "2861632",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.6256500000",
+            "lng": "9.3420300000",
+            "name": "N\u00fcrtingen",
+            "distance": 33.700000000000003,
+            "temperatureHigh": 64.079999999999998,
+            "temperatureLow": 52.420000000000002
+        },
+        {
+            "id": "2890473",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.6468300000",
+            "lng": "9.4537800000",
+            "name": "Kirchheim unter Teck",
+            "distance": 30.100000000000001,
+            "temperatureHigh": 64.890000000000001,
+            "temperatureLow": 52.039999999999999
+        },
+        {
+            "id": "2836320",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.8053700000",
+            "lng": "9.5272100000",
+            "name": "Schorndorf",
+            "distance": 35.299999999999997,
+            "temperatureHigh": 64.609999999999999,
+            "temperatureLow": 51.600000000000001
+        },
+        {
+            "id": "2949423",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.0934500000",
+            "lng": "9.7905300000",
+            "name": "Biberach an der Ri\u00df",
+            "distance": 23,
+            "temperatureHigh": 58.969999999999999,
+            "temperatureLow": 44.590000000000003
+        },
+        {
+            "id": "2921653",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6242300000",
+            "lng": "9.8273600000",
+            "name": "Geislingen an der Steige",
+            "distance": 17.399999999999999,
+            "temperatureHigh": 60.299999999999997,
+            "temperatureLow": 48.740000000000002
+        },
+        {
+            "id": "2932924",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.2825900000",
+            "lng": "9.7274900000",
+            "name": "Ehingen",
+            "distance": 14.5,
+            "temperatureHigh": 60.369999999999997,
+            "temperatureLow": 45.350000000000001
+        },
+        {
+            "id": "2930889",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.9616400000",
+            "lng": "10.1317300000",
+            "name": "Ellwangen",
+            "distance": 39.5,
+            "temperatureHigh": 58.5,
+            "temperatureLow": 48.890000000000001
+        },
+        {
+            "id": "2878270",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "47.8267200000",
+            "lng": "10.0205000000",
+            "name": "Leutkirch im Allg\u00e4u",
+            "distance": 39.399999999999999,
+            "temperatureHigh": 57.590000000000003,
+            "temperatureLow": 44.520000000000003
+        },
+        {
+            "id": "2833080",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.3244100000",
+            "lng": "10.0444200000",
+            "name": "Senden",
+            "distance": 5.5999999999999996,
+            "temperatureHigh": 60.880000000000003,
+            "temperatureLow": 45.520000000000003
+        },
+        {
+            "id": "2871486",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.5369500000",
+            "lng": "9.2833000000",
+            "name": "Metzingen",
+            "distance": 33.899999999999999,
+            "temperatureHigh": 63.990000000000002,
+            "temperatureLow": 52.159999999999997
+        },
+        {
+            "id": "2931414",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6951500000",
+            "lng": "9.7067600000",
+            "name": "Eislingen",
+            "distance": 24.399999999999999,
+            "temperatureHigh": 66.069999999999993,
+            "temperatureLow": 51.75
+        },
+        {
+            "id": "2920620",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6221900000",
+            "lng": "10.2431200000",
+            "name": "Giengen an der Brenz",
+            "distance": 19.300000000000001,
+            "temperatureHigh": 59.460000000000001,
+            "temperatureLow": 47.979999999999997
+        },
+        {
+            "id": "2953320",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "47.9202700000",
+            "lng": "9.7549000000",
+            "name": "Bad Waldsee",
+            "distance": 34.700000000000003,
+            "temperatureHigh": 56.219999999999999,
+            "temperatureLow": 46.590000000000003
+        },
+        {
+            "id": "2913555",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.4559900000",
+            "lng": "10.2769500000",
+            "name": "G\u00fcnzburg",
+            "distance": 13.6,
+            "temperatureHigh": 59.799999999999997,
+            "temperatureLow": 47.649999999999999
+        },
+        {
+            "id": "2861914",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.8512200000",
+            "lng": "10.4886800000",
+            "name": "N\u00f6rdlingen",
+            "distance": 38.700000000000003,
+            "temperatureHigh": 59.950000000000003,
+            "temperatureLow": 48.140000000000001
+        },
+        {
+            "id": "3208353",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.5702700000",
+            "lng": "10.3160800000",
+            "name": "Medlingen",
+            "distance": 19,
+            "temperatureHigh": 59.799999999999997,
+            "temperatureLow": 47.780000000000001
+        },
+        {
+            "id": "2839623",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.1803200000",
+            "lng": "10.6400500000",
+            "name": "Scherstetten",
+            "distance": 33.299999999999997,
+            "temperatureHigh": 59.409999999999997,
+            "temperatureLow": 44.450000000000003
+        },
+        {
+            "id": "2804283",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6524400000",
+            "lng": "10.3988200000",
+            "name": "Ziertheim",
+            "distance": 25.600000000000001,
+            "temperatureHigh": 59.659999999999997,
+            "temperatureLow": 47.770000000000003
+        },
+        {
+            "id": "2815204",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "47.9722300000",
+            "lng": "10.3005400000",
+            "name": "Wald",
+            "distance": 32.600000000000001,
+            "temperatureHigh": 58.200000000000003,
+            "temperatureLow": 44.969999999999999
+        },
+        {
+            "id": "2932922",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.6000000000",
+            "lng": "10.8000000000",
+            "name": "Ehingen",
+            "distance": 39.5,
+            "temperatureHigh": 61.700000000000003,
+            "temperatureLow": 45
+        },
+        {
+            "id": "2824393",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.8497200000",
+            "lng": "9.8382400000",
+            "name": "T\u00e4ferrot",
+            "distance": 32,
+            "temperatureHigh": 60.990000000000002,
+            "temperatureLow": 48.579999999999998
+        },
+        {
+            "id": "2906130",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.4597200000",
+            "lng": "10.7360100000",
+            "name": "Heretsried",
+            "distance": 34.299999999999997,
+            "temperatureHigh": 60.420000000000002,
+            "temperatureLow": 43.869999999999997
+        },
+        {
+            "id": "2868010",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.5766100000",
+            "lng": "9.6573300000",
+            "name": "M\u00fchlhausen",
+            "distance": 19.699999999999999,
+            "temperatureHigh": 56.859999999999999,
+            "temperatureLow": 46.460000000000001
+        },
+        {
+            "id": "2820122",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.0056600000",
+            "lng": "10.2667200000",
+            "name": "Ungerhausen",
+            "distance": 29.800000000000001,
+            "temperatureHigh": 58.57,
+            "temperatureLow": 45.990000000000002
+        },
+        {
+            "id": "2870628",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.1764200000",
+            "lng": "10.5975400000",
+            "name": "Mittelneufnach",
+            "distance": 31.699999999999999,
+            "temperatureHigh": 59.390000000000001,
+            "temperatureLow": 44.369999999999997
+        },
+        {
+            "id": "2955025",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.5295900000",
+            "lng": "10.1916600000",
+            "name": "Asselfingen",
+            "distance": 12.9,
+            "temperatureHigh": 59.189999999999998,
+            "temperatureLow": 47.479999999999997
+        },
+        {
+            "id": "2867555",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.2290400000",
+            "lng": "10.6362300000",
+            "name": "M\u00fcnster",
+            "distance": 31.699999999999999,
+            "temperatureHigh": 59.079999999999998,
+            "temperatureLow": 44.390000000000001
+        },
+        {
+            "id": "2814718",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.2261300000",
+            "lng": "10.5883600000",
+            "name": "Walkertshofen",
+            "distance": 29.800000000000001,
+            "temperatureHigh": 58.880000000000003,
+            "temperatureLow": 44.210000000000001
+        },
+        {
+            "id": "2919792",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.5000000000",
+            "lng": "10.4833300000",
+            "name": "Gl\u00f6tt",
+            "distance": 23.5,
+            "temperatureHigh": 60.009999999999998,
+            "temperatureLow": 46.890000000000001
+        },
+        {
+            "id": "2958555",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.1985900000",
+            "lng": "10.3887700000",
+            "name": "Aletshausen",
+            "distance": 22.800000000000001,
+            "temperatureHigh": 58.560000000000002,
+            "temperatureLow": 46.659999999999997
+        },
+        {
+            "id": "2933385",
+            "summary": "Drizzle throughout the day.",
+            "lat": "48.8082700000",
+            "lng": "10.4660900000",
+            "name": "Ederheim",
+            "distance": 35.700000000000003,
+            "temperatureHigh": 59.219999999999999,
+            "temperatureLow": 47.670000000000002
+        },
+        {
+            "id": "2933168",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.0871400000",
+            "lng": "10.2849500000",
+            "name": "Egg an der G\u00fcnz",
+            "distance": 25.300000000000001,
+            "temperatureHigh": 58.32,
+            "temperatureLow": 46.159999999999997
+        },
+        {
+            "id": "2930881",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.3397100000",
+            "lng": "10.3189100000",
+            "name": "Ellzee",
+            "distance": 15.5,
+            "temperatureHigh": 59.149999999999999,
+            "temperatureLow": 47.420000000000002
+        },
+        {
+            "id": "2899870",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.0250300000",
+            "lng": "10.2590100000",
+            "name": "Holzg\u00fcnz",
+            "distance": 28.5,
+            "temperatureHigh": 58.299999999999997,
+            "temperatureLow": 46.149999999999999
+        },
+        {
+            "id": "2958951",
+            "summary": "Mostly cloudy throughout the day.",
+            "lat": "48.2289800000",
+            "lng": "10.5394900000",
+            "name": "Aichen",
+            "distance": 27.600000000000001,
+            "temperatureHigh": 59.060000000000002,
+            "temperatureLow": 44.25
+        }
+    ]
+}
