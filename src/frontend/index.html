@@ -2,12 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link ref="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <title>SMArt Search</title>
 </head>
 <body>
-    <section id="seach">
-
-    </section>
+<section id="search">
+    <main id="search-wrapper">
+        <div id="logo">
+            <img src="assets/img/logo.jpg">
+        </div>
+        <div>
+            <div>Ort</div>
+            <input id="search-input" placeholder="z.B Ulm">
+            <button id="attribut-btn" class="btn">Attribute</button>
+        </div>
+        <div><button id="search-btn" class="btn">Suchen</button></div>
+    </main>
+</section>
+<section id="attributes">
+    <main id="attribute-wrapper" class="close">
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="assets/img/feathericons/coffee.svg">
+        </div>
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="assets/img/feathericons/coffee.svg">
+        </div>
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="assets/img/feathericons/coffee.svg">
+        </div>
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="assets/img/feathericons/coffee.svg">
+        </div>
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="assets/img/feathericons/coffee.svg">
+        </div>
+    </main>
+</section>
+<script src="assets/js/search.js"></script>
 </body>
 </html>
