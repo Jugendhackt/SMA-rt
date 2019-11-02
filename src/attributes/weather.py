@@ -7,7 +7,7 @@ class WeatherAttr:
     def __init__(self):
         self.URL = os.getenv('WEATHER_URL')
 
-    def get_data(self, lat: float, lng: float, distance: int, weather: str) -> dict:
+    def get_data(self, lat: float, lng: float, distance: int, weather: str) -> list:
         if not weather in ['rain', 'sun', 'snow', 'wind', 'storm'] or distance < 0:
             return dict()
         cur_date = strftime("%y-%m-%d", gmtime())
