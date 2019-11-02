@@ -4,17 +4,18 @@ load_dotenv()
 from flask import Flask, request, render_template
 app = Flask(__name__)
 
-from attributes.weather import WeatherAttr
+from src.attributes.weather import WeatherAttr
 weatherAPI = WeatherAttr()
 
 import os
 
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('index.html')
+    return 'SMArt'
+    # return render_template('index.html')
 
 
-@app.route('/api/<key:int>', methods=['GET'])
+@app.route('/api/<int:key>', methods=['GET'])
 def get_weather_data():
     if key == 0:
         return {
@@ -24,7 +25,7 @@ def get_weather_data():
                 request.args.get('distance', 40),
                 request.args.get('weather', 'sun'))
             }
-    elif:
+    else:
         return {}
 
 
