@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <script src="assets/js/OpenLayers/OpenLayers.js"></script>
+    <link rel="stylesheet" href="assets/css/ol.css">
+    <script src="assets/js/ol.js"></script>
 
     <title>SMArt Search</title>
 </head>
@@ -24,24 +25,16 @@
 </section>
 <section id="attributes">
     <main id="attribute-wrapper" class="close">
-        <div data-id="essen" class="attr-box">
-            <div>Essen</div>
+        <div data-id="wetter" class="attr-box">
+            <div>Wetter</div>
             <img src="assets/img/feathericons/coffee.svg">
         </div>
         <div data-id="essen" class="attr-box">
             <div>Essen</div>
             <img src="assets/img/feathericons/coffee.svg">
         </div>
-        <div data-id="essen" class="attr-box">
-            <div>Essen</div>
-            <img src="assets/img/feathericons/coffee.svg">
-        </div>
-        <div data-id="essen" class="attr-box">
-            <div>Essen</div>
-            <img src="assets/img/feathericons/coffee.svg">
-        </div>
-        <div data-id="essen" class="attr-box">
-            <div>Essen</div>
+        <div data-id="Bäcker" class="attr-box">
+            <div>Bäcker</div>
             <img src="assets/img/feathericons/coffee.svg">
         </div>
     </main>
@@ -49,10 +42,6 @@
 <section id="map">
 </section>
 <script src="assets/js/search.js"></script>
-<script>
-    map = new OpenLayers.Map("map");
-    map.addLayer(new OpenLayers.Layer.OSM());
-    map.zoomToMaxExtent();
-</script>
+<script src="assets/js/map.js"></script>
 </body>
 </html>

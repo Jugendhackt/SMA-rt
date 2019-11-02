@@ -70,7 +70,7 @@ input{
 }
 #attribute-wrapper.open{
     display: flex;
-    margin: 15px;
+    margin: 15px auto;
     height: 100%;
     animation: open 0.5s linear;
 }
@@ -81,9 +81,11 @@ input{
 }
 
 .attr-box{
+    background-color: white;
+    cursor: pointer;
     border-radius: 3px;
     border: 1px solid black;
-    width: 70px;
+    min-width: 70px;
     height: 70px;
     margin: 5px;
     transition: 500ms;
