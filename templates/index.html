@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/app.css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/ol.css">
+    <script src="/static/js/ol.js"></script>
+    <title>SMArt Search</title>
+</head>
+<body>
+<section id="search">
+    <main id="search-wrapper">
+        <div id="logo">
+            <img src="/static/img/logo.jpg" alt="Logo">
+        </div>
+        <div>
+            <div>Ort</div>
+            <label for="search-input"></label>
+            <input id="search-input" placeholder="z.B Ulm">
+            <button id="attribut-btn" class="btn">Attribute</button>
+        </div>
+        <div>
+            <button id="search-btn" class="btn">Suchen</button>
+        </div>
+    </main>
+</section>
+<section id="attributes">
+    <main id="attribute-wrapper" class="close">
+        <div data-id="wetter" class="attr-box">
+            <div>Wetter</div>
+            <img src="/static/img/feathericons/coffee.svg" alt="Coffee logo">
+        </div>
+        <div data-id="essen" class="attr-box">
+            <div>Essen</div>
+            <img src="/static/img/feathericons/coffee.svg" alt="Coffee logo">
+        </div>
+        <div data-id="Bäcker" class="attr-box">
+            <div>Bäcker</div>
+            <img src="/static/img/feathericons/coffee.svg" alt="Coffee logo">
+        </div>
+    </main>
+</section>
+<section id="map">
+</section>
+<script src="/static/js/search.js"></script>
+<script src="/static/js/map.js"></script>
+</body>
+</html>

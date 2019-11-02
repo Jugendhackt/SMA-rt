@@ -1,0 +1,152 @@
+body {
+
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#search {
+    border-bottom: 1px solid black;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+
+#search-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#search-wrapper div div {
+    float: left;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
+
+.btn {
+    transition: 500ms;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.btn:hover {
+    box-shadow: 1px 0px 10px black;
+    color: white;
+    background-color: black;
+}
+
+input {
+    color: black;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#attribut-btn.open {
+    background-color: black;
+    color: white;
+}
+
+#attributes {
+    position: absolute;
+    width: 100%;
+    z-index: 19999;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#attribute-wrapper {
+
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 920px;
+    margin: 0 auto;
+    display: none;
+}
+
+#attribute-wrapper.open {
+    display: flex;
+    margin: 15px auto;
+    height: 100%;
+    animation: open 0.5s linear;
+}
+
+#attribute-wrapper.close {
+    display: flex;
+    height: 0;
+    animation: close 0.5s linear;
+}
+
+.attr-box {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid black;
+    min-width: 70px;
+    height: 70px;
+    margin: 5px;
+    transition: 500ms;
+}
+
+.attr-box img {
+    margin: 2px auto;
+    display: block;
+}
+
+.attr-box div {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.attr-box.clicked {
+    background-color: black;
+    box-shadow: 1px 0px 10px black;
+    color: white;
+}
+
+.attr-box.clicked img {
+    filter: invert();
+}
+
+#map {
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: block;
+}
+
+@keyframes open {
+    0% {
+        height: 0%;
+        opacity: 0;
+    }
+    100% {
+        height: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes close {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

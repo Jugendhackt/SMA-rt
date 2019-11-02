@@ -14,8 +14,7 @@ import os
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'SMArt'
-    # return render_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/api/<attributes>', methods=['GET'])

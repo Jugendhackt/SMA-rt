@@ -1,7 +1,3 @@
-# Just for testing without Flask app:
-from dotenv import load_dotenv
-load_dotenv()
-
 import requests
 import os
 import datetime
