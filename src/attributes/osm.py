@@ -36,6 +36,7 @@ class OSM:
 
         for result in results:
             if isinstance(result["lon"], float) and isinstance(result["lat"], float):
+                result["lng"] = result["lon"]
                 result["distance"] = self.haversine(lon, lat, result["lon"], result["lat"])
                 if result["distance"] <= distance:
                     del result

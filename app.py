@@ -40,7 +40,7 @@ def get_data(attributes):
                 request.args.get('attribute', 'bread'),
                 request.args.get('time', 0),
                 request.args.get('lat', 0),
-                request.args.get('lng', 0),
+                request.args.get('lon', 0),
                 request.args.get('distance', 40)
             )
         }
