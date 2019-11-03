@@ -26,7 +26,7 @@ class OSM:
         overpass_query = f'''
         [out:json][timeout:25];
         (
-        node["shop"="bakery"](48.289,9.803,48.474,10.26);
+        node["shop"="{self.get_parent_class(attribute)}"](48.289,9.803,48.474,10.26);
         );
         out body;
         '''
@@ -65,3 +65,10 @@ class OSM:
         c = 2 * asin(sqrt(a)) 
         r = 6371
         return c * r
+
+    def get_parent_class(self, attribute):
+        return {
+            "bread": "bakery",
+            "banana": "supermarket",
+            "charging_cable": "mobile_phone",
+        }[attribute.lower()]
