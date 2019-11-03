@@ -19,13 +19,14 @@ def index():
 
 @app.route('/api/<attributes>', methods=['GET'])
 def get_data(attributes):
-    if attributes == 0:
+    print(attributes)
+    if attributes == 'weather':
         return {
             'data': weatherAPI.get_data(
                 request.args.get('lat', 0),
-                request.args.get('lng', 0),
+                request.args.get('lon', 0),
                 request.args.get('distance', 40),
-                request.args.get('weather', 'sun'))
+                request.args.get('attribute', 'sun'))
             }
     else:
         return {

@@ -3,6 +3,8 @@ function getLocation() {
     if ("geolocation" in navigator) {
 
         navigator.geolocation.getCurrentPosition(position => {
+            const lat = position.coords.latitude;
+            const long = position.coords.longitude;
             // Loads the map
             console.log(navigator.permissions.query({name: "geolocation"}));
             const map = new ol.Map({
@@ -13,11 +15,22 @@ function getLocation() {
                     })
                 ],
                 view: new ol.View({
-                    center: ol.proj.fromLonLat([position.coords.longitude, position.coords.latitude]),
+                    center: ol.proj.fromLonLat([long, lat]),
                     zoom: 15
                 })
             });
-        }, error);
+            var searchBtn = document.getElementById("search-btn");
+            searchBtn.addEventListener("click", function () {
+                const attr = document.querySelectorAll(".attr-box.clicked")[0];
+                if (attr) {
+                    const xhr = new XMLHttpRequest();
+                    xhr.onload = () => console.log(xhr.response);
+                    xhr.responseType = "JSON";
+                    xhr.open("GET", `/api/${attr.dataset.id}?lat=${lat}&lon=${long}&time=${new Date().getTime()}&attribute=${attr.dataset.type}`);
+                    xhr.send();
+                }
+            }, error);
+        });
     } else console.log("Geolocation not supported");
 }
 
