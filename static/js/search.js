@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const attrBox = document.getElementsByClassName("attr-box");
     for (const attr of attrBox) {
         attr.addEventListener("click", _ => {
-            if (attr.classList.contains("clicked")) attr.classList.remove("clicked");
-            else attr.classList.add("clicked");
+            for (const elem of document.getElementsByClassName("clicked"))
+                elem.classList.remove("clicked");
+            attr.classList.add("clicked");
         });
     }
     // Open/Close Attribute Menu
