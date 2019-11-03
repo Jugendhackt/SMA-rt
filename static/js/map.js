@@ -59,7 +59,7 @@ function getLocation() {
                         }
                     };
                     xhr.responseType = "json";
-                    xhr.open("GET", `/api/${attr.dataset.id}?lat=${lat}&lon=${long}&time=${new Date().getTime()}&attribute=${attr.dataset.type}`);
+                    xhr.open("GET", `api/${attr.dataset.id}?lat=${lat}&lon=${long}&time=${new Date().getTime()}&attribute=${attr.dataset.type}`);
                     xhr.send();
                 }
             }, error);
