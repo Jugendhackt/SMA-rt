@@ -13,17 +13,20 @@ class OSM:
 
     def get_data(self, attribute: str, req_time: int, lat: float, lon: float, distance: int) -> dict:
         # self.check_date('timestring', req_time//1000)
+        lat = float(lat)
+        lon = float(lon)
 
-        range = 60 # km
-        lat1 = float(lat) + range * (1 / 110.574)
-        lon1 = float(lon) + range * (1 / (111.320 * cos(lat)))
-        lat0 = float(lat) - range * (1 / 110.574)
-        lon0 = float(lon) - range * (1 / (111.320 * cos(lat)))
+        range = 2 # km
+        lat1 = (lat) + range * (1 / 110.574)
+        lon1 = (lon) + range * (1 / (111.320 * cos(lat)))
+        lat0 = (lat) - range * (1 / 110.574)
+        lon0 = (lon) - range * (1 / (111.320 * cos(lat)))
+        print(lat0, lon0, lat1, lon1)
 
         overpass_query = f'''
         [out:json][timeout:25];
         (
-        node["shop"="{attribute}"]({lat0},{lon0},{lat1},{lon1});
+        node["shop"="bakery"](48.289,9.803,48.474,10.26);
         );
         out body;
         '''
