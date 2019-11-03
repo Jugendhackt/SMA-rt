@@ -34,12 +34,9 @@ function getLocation() {
                         let vectorSource = vectorLayer.getSource();
                         for (const spot of data) {
                             let marker = new ol.Feature(
-                                new ol.geom.Point([spot.lat, spot.lng])
+                                new ol.geom.Point(ol.proj.fromLonLat([spot.lng, spot.lat]))
                             );
-                            console.log(spot.lng);
-                            map.on("click", function (evt) {
-                                console.log(evt.coordinate);
-                            });
+
                             marker.setStyle(new ol.style.Style({
                                     image: new ol.style.Icon({
                                         anchor: [0.5, 36],
@@ -47,7 +44,8 @@ function getLocation() {
                                         anchorYUnits: "pixels",
                                         opacity: 1,
                                         src: '/static/img/alpaca.png',
-                                        zIndex: 1
+                                        zIndex: 1,
+                                        scale: 0.1
                                     }),
                                     zIndex: 1
                                 })
