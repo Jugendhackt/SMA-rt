@@ -4,10 +4,10 @@ function getLocation() {
 
         navigator.geolocation.getCurrentPosition(position => {
             const lat = position.coords.latitude;
-            const long = position.coords.longitude;
+            const lon = position.coords.longitude;
             // Loads the map
             console.log(navigator.permissions.query({name: "geolocation"}));
-            let vectorLayer = new ol.layer.Vector({
+            const vectorLayer = new ol.layer.Vector({
                 source: new ol.source.Vector(),
             });
             const map = new ol.Map({
@@ -19,26 +19,25 @@ function getLocation() {
                     vectorLayer,
                 ],
                 view: new ol.View({
-                    center: ol.proj.fromLonLat([long, lat]),
+                    center: ol.proj.fromLonLat([lon, lat]),
                     zoom: 15
                 })
             });
-            var searchBtn = document.getElementById("search-btn");
-            searchBtn.addEventListener("click", function () {
+            const searchBtn = document.getElementById("search-btn");
+            searchBtn.addEventListener("click", _ => {
                 const attr = document.querySelectorAll(".attr-box.clicked")[0];
                 if (attr) {
                     const xhr = new XMLHttpRequest();
                     xhr.onload = () => {
-                        
-                        var features = vectorLayer.getSource().getFeatures();
+                        const features = vectorLayer.getSource().getFeatures();
                         features.forEach((feature) => {
                             vectorLayer.getSource().removeFeature(feature);
                         });
-                        
+
                         const data = xhr.response.data;
-                        let vectorSource = vectorLayer.getSource();
+                        const vectorSource = vectorLayer.getSource();
                         for (const spot of data) {
-                            let marker = new ol.Feature(
+                            const marker = new ol.Feature(
                                 new ol.geom.Point(ol.proj.fromLonLat([spot.lng, spot.lat]))
                             );
 
@@ -59,7 +58,7 @@ function getLocation() {
                         }
                     };
                     xhr.responseType = "json";
-                    xhr.open("GET", `api/${attr.dataset.id}?lat=${lat}&lon=${long}&time=${new Date().getTime()}&attribute=${attr.dataset.type}`);
+                    xhr.open("GET", `/api/${attr.dataset.id}?lat=${lat}&lon=${lon}&time=${new Date().getTime()}&attribute=${attr.dataset.type}`);
                     xhr.send();
                 }
             }, error);

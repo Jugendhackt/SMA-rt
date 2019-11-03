@@ -21,15 +21,3 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
-
-class Search {
-    constructor() {
-        this.place = "";
-        this.attr = [];
-    }
-
-    getData(place) {
-
-    }
-
-}

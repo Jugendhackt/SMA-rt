@@ -27,7 +27,6 @@ def get_attributes():
 
 @app.route('/api/<attributes>', methods=['GET'])
 def get_data(attributes):
-    print(attributes)
     if attributes == 'weather':
         return {
             'data': weatherAPI.get_data(

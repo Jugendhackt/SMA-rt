@@ -1,6 +1,7 @@
-import requests
 import os
 from time import gmtime, strftime
+
+import requests
 
 
 class WeatherAttr:
@@ -8,8 +9,8 @@ class WeatherAttr:
         self.URL = os.getenv('WEATHER_URL')
 
     def get_data(self, lat: float, lng: float, distance: int, weather: str) -> list:
-        if not weather in ['rain', 'sun', 'snow', 'wind', 'storm'] or distance < 0:
-            return dict()
+        if weather not in ['rain', 'sun', 'snow', 'wind', 'storm'] or distance < 0:
+            return list()
         cur_date = strftime("%y-%m-%d", gmtime())
         params = {
             'action': 'request',
@@ -17,7 +18,8 @@ class WeatherAttr:
             'weather': weather,
             'date': cur_date,
             'distance': distance,
-            'params': '{"maximumTemperature":140,"minimumTemperature":-76,"snowAccumulation":0,"cloudCover":1,"minimumWindSpeed"`:12}'
+            'params': '{"maximumTemperature":140,"minimumTemperature":-76,"snowAccumulation":0,"cloudCover":1,'
+                      '"minimumWindSpeed"`:12} '
         }
         r = requests.post(self.URL, params)
-        return(r.json()['places'])
+        return r.json()['places']

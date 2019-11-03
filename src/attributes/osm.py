@@ -1,10 +1,8 @@
-import requests
-import os
 import datetime
-import calendar
-import requests
-import json
 from math import radians, cos, sin, asin, sqrt
+
+import requests
+
 
 class OSM:
     def __init__(self):
@@ -16,17 +14,17 @@ class OSM:
         lat = float(lat)
         lon = float(lon)
 
-        range = 2 # km
-        lat1 = (lat) + range * (1 / 110.574)
-        lon1 = (lon) + range * (1 / (111.320 * cos(lat)))
-        lat0 = (lat) - range * (1 / 110.574)
-        lon0 = (lon) - range * (1 / (111.320 * cos(lat)))
+        d = 2  # km
+        lat1 = lat + d * (1 / 110.574)
+        lon1 = lon + d * (1 / (111.320 * cos(lat)))
+        lat0 = lat - d * (1 / 110.574)
+        lon0 = lon - d * (1 / (111.320 * cos(lat)))
         print(lat0, lon0, lat1, lon1)
 
         overpass_query = f'''
         [out:json][timeout:25];
         (
-        node["shop"="{self.get_parent_class(attribute)}"](48.289,9.803,48.474,10.26);
+        node["shop"="{OSM.get_parent_class(attribute)}"](48.289,9.803,48.474,10.26);
         );
         out body;
         '''
@@ -46,7 +44,8 @@ class OSM:
         results.sort(key=lambda x: x["distance"], reverse=False)
         return results
 
-    def check_date(self, date_string: str, req_time: int) -> bool:
+    @staticmethod
+    def check_date(date_string: str, req_time: int) -> bool:
         date = datetime.datetime.fromtimestamp(req_time)
         days = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
         opening_entries = date_string.split(';')
@@ -58,16 +57,18 @@ class OSM:
             else:
                 return False
 
-    def haversine(self, lon0, lat0, lon1, lat1):
+    @staticmethod
+    def haversine(lon0, lat0, lon1, lat1):
         lon0, lat0, lon1, lat1 = map(radians, [lon0, lat0, lon1, lat1])
-        dlon = lon1 - lon0 
-        dlat = lat1 - lat0 
-        a = sin(dlat/2)**2 + cos(lat0) * cos(lat1) * sin(dlon/2)**2
-        c = 2 * asin(sqrt(a)) 
+        dlon = lon1 - lon0
+        dlat = lat1 - lat0
+        a = sin(dlat / 2) ** 2 + cos(lat0) * cos(lat1) * sin(dlon / 2) ** 2
+        c = 2 * asin(sqrt(a))
         r = 6371
         return c * r
 
-    def get_parent_class(self, attribute):
+    @staticmethod
+    def get_parent_class(attribute):
         return {
             "bread": "bakery",
             "banana": "supermarket",
