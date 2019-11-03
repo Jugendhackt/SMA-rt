@@ -29,7 +29,12 @@ function getLocation() {
                 if (attr) {
                     const xhr = new XMLHttpRequest();
                     xhr.onload = () => {
-                        console.log(xhr.response);
+                        
+                        var features = vectorLayer.getSource().getFeatures();
+                        features.forEach((feature) => {
+                            vectorLayer.getSource().removeFeature(feature);
+                        });
+                        
                         const data = xhr.response.data;
                         let vectorSource = vectorLayer.getSource();
                         for (const spot of data) {

@@ -1,5 +1,5 @@
-body {
-
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #logo {
@@ -101,6 +101,7 @@ input {
     min-width: 70px;
     height: 70px;
     margin: 5px;
+    padding: 5px;
     transition: 500ms;
 }
 
